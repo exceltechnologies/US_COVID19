@@ -1,3 +1,16 @@
+/*
+    Create a new Google Sheet
+    Click on the Tools menu and select the option Script editor.
+    Delete the placeholder content.
+    Copy and paste the code from below to the Script editor.
+    Select File > Save
+    Name your code "ImportJSON"
+    Close the Script editor and navigate back to your Google Sheet
+    In cell A1, type =ImportJSON("xxx"). Replace xxx with your API endpoint. For example http://api.openweathermap.org/data/3.0/measurements (be sure to keep the quotes and parenthesis)
+    Press enter. Your Google Sheet should now populate with your JSON data
+    
+    For Importing .CSV use the "ImportData" function with the .csv URL (See Below)
+
 /*====================================================================================================================================*
   ImportJSON Example:
   
