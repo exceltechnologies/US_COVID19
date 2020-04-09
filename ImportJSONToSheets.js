@@ -1,5 +1,10 @@
 /*====================================================================================================================================*
-  ImportJSON by Brad Jasper and Trevor Lohrbeer
+  ImportJSON Example:
+  
+  JSON POST Example : =ImportJSONViaPost("https://api.bls.gov/publicAPI/v2/timeseries/data/?seriesid=LAUCN040010000000005,LAUCN040010000000006")
+  JSON GET  Example : =ImportJSON("https://api.bls.gov/publicAPI/v1/timeseries/data/LAUST510000000000009")
+  ImportCSV Example : =IMPORTDATA("http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases_By-Age-Group.csv")
+
   ====================================================================================================================================
   Version:      1.5.0
   Project Page: https://github.com/bradjasper/ImportJSON
